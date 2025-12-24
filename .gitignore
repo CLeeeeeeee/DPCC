@@ -13,3 +13,9 @@ venv/
 # 其他临时文件
 *.log
 *.tmp
+
+data/
+
+# 大体量数据/中间产物（不要提交到 Git）
+Lille1_1_semblocks*.jsonl
+Lille1_1_semblocks*.ply

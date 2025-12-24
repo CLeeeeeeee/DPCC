@@ -6,7 +6,7 @@ from pathlib import Path
 from plyfile import PlyData
 
 # ---- 输入路径 ----
-PLY_PATH = Path(sys.argv[1] if len(sys.argv) > 1 else r"F:\PointCloudPython\recon_block0.ply")
+PLY_PATH = Path(sys.argv[1] if len(sys.argv) > 1 else r"data\training_10_classes\Lille1_1.ply")
 assert PLY_PATH.exists(), f"找不到文件：{PLY_PATH}"
 
 # ---- 用 plyfile 读取字段 ----

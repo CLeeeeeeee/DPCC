@@ -1,5 +1,5 @@
-# PCC
-PointCloudCompression
+# DPCC
+DataplanePointCloudCompression
 这个开源项目用来记录点云数据的压缩设计过程和具体代码实现
 该点云压缩将用于个人项目中，点云数据采用ply格式
 数据集使用Lille数据集，请自行去官网下载后放在data文件夹
